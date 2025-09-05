@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shahab Charitable NGO — End Hunger</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="h2.css">
+
+  <!-- Optional: Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Shahab NGO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#impact">Impact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#stories">Stories</a></li>
+          <li class="nav-item"><a class="nav-link" href="#donate">Donate</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn btn-danger ms-3" data-bs-toggle="modal" data-bs-target="#donateModal">Donate Now</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO / Fullscreen -->
+  <header id="home" class="hero d-flex align-items-center text-white">
+  <!-- Gray Overlay -->
+  <div class="overlay"></div>   <!-- << yeh line overlay ke liye hai -->
+  
+  <!-- Background Images (Slideshow) -->
+  <div class="hero-slides">
+    <img src="6.jpg" class="active" alt="Slide 1">
+    <img src="55.jpeg" alt="Slide 2">
+    <img src="0.webp" alt="Slide 3">
+  </div>
+
+  <!-- Text / Buttons -->
+  <div class="container text-center hero-content">
+    <h1 class="display-4 fw-bold">End Hunger. Restore Hope.</h1>
+    <p class="lead mb-4">Delivering meals, healthcare and learning — for those who need it most.</p>
+    <div class="d-flex justify-content-center gap-2">
+      <a href="#donate" class="btn btn-lg btn-danger">Donate Now</a>
+      <a href="#about" class="btn btn-lg btn-outline-light">Learn More</a>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Impact / Counters -->
+  <section id="impact" class="py-5 bg-light">
+    <div class="container">
+      <div class="row text-center gy-4">
+        <div class="col-md-4">
+          <div class="impact-card">
+            <h2 class="counter" data-target="1200000">0</h2>
+            <p>Meals Delivered</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="impact-card">
+            <h2 class="counter" data-target="500000">0</h2>
+            <p>Children Helped</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="impact-card">
+            <h2 class="counter" data-target="250">0</h2>
+            <p>Communities Supported</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center gx-5">
+        <div class="col-lg-6">
+          <h2>About Shahab Charitable Trust</h2>
+          <p class="lead">We are dedicated to feeding hungry families, supporting children's education and running health camps across vulnerable communities. Transparency and local partnerships are core to our approach.</p>
+          <ul class="list-unstyled">
+            <li>• Focused on food security and child nutrition</li>
+            <li>• Community-driven programs and volunteers</li>
+            <li>• Transparent tracking of donations and impact</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <img src="kk.jpg" alt="field work" class="img-fluid rounded shadow-sm">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Programs -->
+  <section id="programs" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4">Our Programs</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card h-100 shadow-sm">
+            <img src="mm.webp" class="card-img-top" alt="Food Aid">
+            <div class="card-body">
+              <h5 class="card-title">Food Aid</h5>
+              <p class="card-text small">Nutritious meals and food packs for families during emergencies.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 shadow-sm">
+            <img src="88.jpg" class="card-img-top" alt="Education">
+            <div class="card-body">
+              <h5 class="card-title">Education</h5>
+              <p class="card-text small">Learning kits and community classes for children.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 shadow-sm">
+            <img src="OIP (1).webp" class="card-img-top" alt="Healthcare">
+            <div class="card-body">
+              <h5 class="card-title">Healthcare</h5>
+              <p class="card-text small">Medical camps and essential medicines for remote villages.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 shadow-sm">
+            <img src="yui.jpg" class="card-img-top" alt="Women">
+            <div class="card-body">
+              <h5 class="card-title">Women Empowerment</h5>
+              <p class="card-text small">Skill training and small business support for women groups.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stories Carousel -->
+  <section id="stories" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Impact Stories</h2>
+      <div id="storiesCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-md-5">
+                <img src="save.jpg" class="img-fluid rounded" alt="story1">
+              </div>
+              <div class="col-md-7">
+                <h4>Meals that saved a family's harvest</h4>
+                <p class="small">When floods destroyed crops, our emergency food packs kept families alive until harvest returned.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-5">
+                <img src="uu.jpg" class="img-fluid rounded" alt="story2">
+              </div>
+              <div class="col-md-7">
+                <h4>School reopened — children returned</h4>
+                <p class="small">With school kits and community classes, children resumed studies after months away.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#storiesCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#storiesCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section id="partners" class="py-5 bg-light">
+    <div class="container text-center">
+      <h5 class="mb-4">Our Partners</h5>
+      <div class="d-flex flex-wrap justify-content-center align-items-center gap-4">
+        <img src="tiki.jpg" alt="partner" class="partner-logo">
+        <img src="3.jpg" alt="partner" class="partner-logo">
+        <img src="R.jpg" alt="partner" class="partner-logo">
+        <img src="SF2.jpg" alt="partner" class="partner-logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate Section (large CTA) -->
+  <section id="donate" class="donate-banner text-white text-center">
+    <div class="donate-overlay"></div>
+    <div class="container position-relative">
+      <h2 class="mb-3">Help us reach more families</h2>
+      <p class="mb-4">Every contribution matters. Choose an amount and donate securely.</p>
+      <button class="btn btn-light btn-lg me-2" data-bs-toggle="modal" data-bs-target="#donateModal">Donate Now</button>
+      <a href="#contact" class="btn btn-outline-light btn-lg">Volunteer</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <form id="contactForm" class="shadow-sm rounded p-4 bg-white">
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input required type="text" class="form-control" id="cname" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input required type="email" class="form-control" id="cemail" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea required class="form-control" rows="4" id="cmsg"></textarea>
+            </div>
+            <div class="d-grid">
+              <button class="btn btn-danger" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <div>© 2025 Shahab Charitable NGO</div>
+      <div class="small">Follow us:
+        <a class="text-white ms-2" href="#" aria-label="twitter">TW</a>
+        <a class="text-white ms-2" href="#" aria-label="facebook">FB</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Donate Modal (placeholder / mock payment) -->
+  <div class="modal fade" id="donateModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <form id="donateForm">
+          <div class="modal-header">
+            <h5 class="modal-title">Donate to Shahab NGO</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input id="donorName" required type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input id="donorEmail" required type="email" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Amount (₹)</label>
+              <input id="donorAmount" required type="number" min="1" class="form-control" placeholder="500">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Payment method</label>
+              <select id="payMethod" class="form-select">
+                <option value="upi">UPI / QR</option>
+                <option value="card">Card (Stripe)</option>
+                <option value="netbanking">Netbanking</option>
+              </select>
+            </div>
+
+            <!-- UPI placeholder -->
+            <div id="upiBox" class="payment-box">
+              <p class="mb-1 small">Scan UPI QR or pay to:</p>
+              <div class="bg-light p-3 rounded text-center">
+                <div class="fw-bold">shahab@upi</div>
+                <div class="small text-muted">(Placeholder UPI ID)</div>
+                <img src="upi-qr.png" alt="QR" class="img-fluid mt-2" style="max-width:150px">
+              </div>
+            </div>
+
+            <!-- Card placeholder -->
+            <div id="cardBox" class="payment-box d-none">
+              <p class="small">Card payments will be handled by Stripe (demo placeholder)</p>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-danger">Proceed to Pay</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="h3.js"></script>
+</body>
+</html>
